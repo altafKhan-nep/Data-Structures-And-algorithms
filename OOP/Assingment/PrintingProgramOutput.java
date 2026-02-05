@@ -4,6 +4,7 @@ class Automobile {
         return "Driving vehicle";
     }
 }
+
 class Car extends Automobile {
     protected String drive() {  // NEW method (not override!)
         return "Driving car";
