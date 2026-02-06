@@ -1,0 +1,14 @@
+public class DecreasingNumber {
+
+    public static void printDec(int n){
+        if(n == 1){ // base case
+            System.out.println(n);
+            return;
+        }
+        System.out.print(n+" ");
+        printDec(n-1); // recursive call
+    }
+    public static void main(String[] args) {
+        printDec(10);
+    }
+}
