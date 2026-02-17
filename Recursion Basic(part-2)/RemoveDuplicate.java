@@ -2,7 +2,7 @@ public class RemoveDuplicate {
 
 public static void removeDuplicate(String str,int idx,StringBuilder newStr, boolean map[]){
     // baseCase
-    if(idx == str.length()){
+    if(idx == str.length()){ 
         System.out.println(newStr);
         return;
     }
@@ -22,4 +22,4 @@ public static void removeDuplicate(String str,int idx,StringBuilder newStr, bool
         String str = "altafkhan";
         removeDuplicate(str, 0, new StringBuilder("") , new boolean[26]);
     }
-}
+} 
